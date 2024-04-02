@@ -16,6 +16,7 @@
   },
   "plugins": ["@typescript-eslint", "react"],
   "rules": {
+    "jsx-quotes": "off",
     "@typescript-eslint/consistent-type-assertions": "off", //添加这行。
     "no-use-before-define":"off",
     "no-unused-vars": ["error", { "argsIgnorePattern": "slick", "args": "none" }],
